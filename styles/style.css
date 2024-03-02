@@ -60,6 +60,13 @@ body {
     gap: 40px;
 }
 
+.principal {
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
 .apresentacao__conteudo {
     width: 50%;
     display: flex;
@@ -182,6 +189,10 @@ body {
         flex-direction: column-reverse;
         align-items: center;
         padding: 50px 10px 40px 10px;
+    }
+
+    .principal {
+        background-position: top;
     }
 
     .apresentacao__conteudo {
