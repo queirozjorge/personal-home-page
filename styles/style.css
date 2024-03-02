@@ -192,7 +192,7 @@ body {
     }
 
     .principal {
-        background-position: top;
+        background-image: none;
     }
 
     .apresentacao__conteudo {
